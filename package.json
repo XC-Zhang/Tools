@@ -4,6 +4,9 @@
   "repository": "https://github.com/XC-Zhang/Tools",
   "author": "xc-zhang",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config configs/webpack.prod.js"
+  },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.4.1",
