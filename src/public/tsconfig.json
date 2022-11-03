@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es2020"
+    }
+}
