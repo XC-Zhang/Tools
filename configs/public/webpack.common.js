@@ -15,11 +15,12 @@ const webpack = require("webpack");
         }]
     },
     output: {
-        path: join(__dirname, "..", "..", "dist", "public")
+        path: join(__dirname, "..", "..", "dist", "public"),
+        publicPath: "/tools/"
     },
     plugins: [
         new HtmlWebpackPlugin({
-            publicPath: "/",
+            base: "/tools/",
             template: "./src/public/index.html"
         })
     ],
