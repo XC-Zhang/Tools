@@ -19,7 +19,8 @@ const webpack = require("webpack");
     },
     plugins: [
         new HtmlWebpackPlugin({
-            publicPath: "/"
+            publicPath: "/",
+            template: "./src/public/index.html"
         })
     ],
     resolve: {
