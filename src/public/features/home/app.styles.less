@@ -1,0 +1,30 @@
+#app {
+    >.MuiContainer-root {
+        @media screen and (min-height: 900px) {
+            padding-top: 400px;
+        }
+
+        padding-top: 0;
+        transition-property: padding-top;
+        transition-duration: 1s;
+
+        h1.MuiTypography-h1 {
+            margin-bottom: 32px;
+            padding: 0 16px;
+        }
+
+        ul.MuiList-root {
+            >li.MuiListItem-root {
+                >a.MuiPaper-root {
+                    padding: 16px;
+                    text-decoration-line: none;
+                    width: 100%;
+
+                    >.MuiTypography-body2 {
+                        color: rgba(0, 0, 0, 0.38);
+                    }
+                }
+            }
+        }
+    }
+}
